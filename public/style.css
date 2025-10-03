@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* style.css */
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #f0f8ff;
+}
+
+#gameArea {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  margin: 20px auto;
+  border: 2px solid #333;
+  background-color: #fff;
+}
+
+.number {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  font-size:20px;
+  background-color: #87cefa;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
